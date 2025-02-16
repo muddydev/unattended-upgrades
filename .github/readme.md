@@ -11,7 +11,7 @@ apt update&& apt upgrade -y && apt install git -y&& git clone https://github.com
 && cd unattended-upgrades
 ```
 
-### 2. Edit the config files for your maintenance window
+### 2. OPTIONAL Edit the config files for your maintenance window
 
 - `50unattended-upgrades` provides the `Automatic-Reboot-Time` option
 - `download-override.conf` provides the time potential updates are pulled down
