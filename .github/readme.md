@@ -7,7 +7,7 @@ Semi-customized sane defaults
 ### 1. Get it
 
 ```bash
-apt update; apt upgrade -y ; apt install git -y; git clone https://github.com/dev01d/unattended-upgrades.git \
+apt update&& apt upgrade -y && apt install git -y&& git clone https://github.com/dev01d/unattended-upgrades.git \
 && cd unattended-upgrades
 ```
 
